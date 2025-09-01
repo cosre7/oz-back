@@ -59,15 +59,6 @@ router.put("/:id", (req, res) => {
 });
 
 /**
- * method: PATCH
- * Path: /products/:id
- * Description: Update a product
- * Response: 200 OK
- * Body: {}
- */
-router.patch("/:id", (req, res) => {});
-
-/**
  * method: DELETE
  * Path: /products/:id
  * Description: Delete a product
